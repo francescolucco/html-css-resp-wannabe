@@ -75,6 +75,7 @@ img{
   #lezioni .row > .right{
   width: 100%;
   float: none;
+  padding-bottom: 15px;
   }
 
   #steps .row > .left,
@@ -83,7 +84,26 @@ img{
   width: 100%;
   float: none;
   min-width: none;
+  padding-bottom: 15px;
+
   } 
+
+  img{
+    width: 22%;
+    height: auto;
+  }
+
+  #why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#why .row > h1 {
+  width: 100%;
+  padding-top: 10px;
+}
 
 }
 
@@ -110,6 +130,7 @@ img{
 
   img{
     width: 30%;
+    height: auto;
   }
 
 }
